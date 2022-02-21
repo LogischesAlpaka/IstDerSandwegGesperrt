@@ -3,6 +3,7 @@
 <html>
 
 <head>
+    <title>Ist der Sandweg frei?</title>
     <link type="text/css" rel="stylesheet" href="css/style.css" />
 </head>
 
@@ -17,4 +18,10 @@
 
     <div id="tsparticles"></div>
     <script type="text/javascript" src="js/canvas.js"></script>
+    <script>
+        window.setInterval('refresh()', 30000); 	
+        function refresh() {
+            window .location.reload();
+        }
+    </script>
 </html>
